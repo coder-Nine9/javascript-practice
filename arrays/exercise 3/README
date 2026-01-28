@@ -1,0 +1,38 @@
+# 📐 Vector Dot Product Calculator
+
+A JavaScript mini application that calculates the **scalar (dot) product** of two 3-element vectors.
+
+## 📌 Description
+The user enters values for two vectors **U** and **V**.  
+After clicking the calculate button, the app validates the inputs and displays the scalar product using the formula:
+
+**U · V = u₁×v₁ + u₂×v₂ + u₃×v₃**
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters numbers for both vectors :contentReference[oaicite:0]{index=0}
+2. Inputs are validated to prevent empty or invalid values :contentReference[oaicite:1]{index=1}
+3. The dot product is calculated using a loop
+4. The result is displayed dynamically on the page
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No setup or installation required.
+
+## 🎯 Learning Goals
+- Arrays and loops
+- Input validation
+- Mathematical operations in JavaScript
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
