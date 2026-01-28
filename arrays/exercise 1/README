@@ -1,0 +1,39 @@
+# 🇫🇷 French Vowels Array
+
+A simple JavaScript project that displays **French vowels** stored in an array when the user clicks a button.
+
+## 📌 Description
+This project demonstrates how to:
+- Store data in a JavaScript array
+- Use DOM manipulation to display elements dynamically
+- Handle button click events
+- Improve performance using `DocumentFragment`
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ▶️ How It Works
+1. A button click triggers the display of vowels :contentReference[oaicite:0]{index=0}
+2. The vowels are stored in an array: `["a", "e", "i", "o", "u", "y"]`
+3. Each vowel is displayed inside a styled card
+4. CSS animations enhance the visual appearance :contentReference[oaicite:1]{index=1}
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No setup or installation required.
+
+## 🎯 Learning Goals
+- Working with arrays
+- DOM manipulation
+- Event handling
+- Basic UI styling and animations
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
