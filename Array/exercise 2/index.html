@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array Analytics Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📊 Array Analytics</h2>
+        <p></p>
+        
+        <div class="input-section">
+            <input type="number" id="numInput" placeholder="Enter a number" step="any">
+            <button id="addBtn">Add to Array</button>
+        </div>
+
+        <div class="progress-bar">
+            <div id="progressFill" style="width: 0%"></div>
+        </div>
+        <p id="counter"></p>
+
+        <div id="statsBoard" class="results hidden">
+            <div class="stat-card">
+                <span>Sum</span>
+                <strong id="sumResult">0</strong>
+            </div>
+            <div class="stat-card">
+                <span>Product</span>
+                <strong id="prodResult">0</strong>
+            </div>
+            <div class="stat-card">
+                <span>Average</span>
+                <strong id="avgResult">0</strong>
+            </div>
+            <button id="resetBtn">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

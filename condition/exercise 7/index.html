@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Tax Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulateur d'Impôts Local</h1>
+        
+        <div class="input-group">
+            <label for="ageInput">Âge :</label>
+            <input type="number" id="ageInput" placeholder="Ex: 25">
+        </div>
+
+        <div class="input-group">
+            <label for="sexeSelect">Sexe :</label>
+            <select id="sexeSelect">
+                <option value="H">Homme</option>
+                <option value="F">Femme</option>
+            </select>
+        </div>
+        
+        <button id="checkTaxBtn">Vérifier l'Éligibilité</button>
+        
+        <div class="result-area">
+            <p id="taxStatus" class="status-box">Remplissez les informations</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

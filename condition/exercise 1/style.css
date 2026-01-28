@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h1 {
+    color: #343a40;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    font-weight: 600;
+    color: #495057;
+}
+
+.input-group input[type="number"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    text-align: right;
+    font-size: 1rem;
+}
+
+#checkButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    margin-top: 15px;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#checkButton:hover {
+    background-color: #0056b3;
+}
+
+#checkButton:active {
+    transform: scale(0.99);
+}
+
+.result-label {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #343a40;
+    font-size: 1.1rem;
+}
+
+.result-output {
+    min-height: 24px; /* To prevent layout shift */
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+}    

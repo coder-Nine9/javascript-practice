@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mystery Number Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>🕵️ Mystery Number</h1>
+        <p>I'm thinking of a number between <strong>1 and 30</strong>.</p>
+        
+        <div class="stats">
+            <span id="attemptsDisplay">Attempts left: <strong>5</strong></span>
+        </div>
+
+        <div class="input-area">
+            <input type="number" id="guessInput" placeholder="??" min="1" max="30">
+            <button id="guessBtn">Guess!</button>
+        </div>
+
+        <div id="feedback" class="message">Good luck!</div>
+        
+        <button id="resetBtn" class="hidden">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

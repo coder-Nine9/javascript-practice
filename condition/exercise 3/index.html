@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photocopy Billing Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Photocopy Billing</h1>
+        
+        <div class="input-group">
+            <label for="copiesInput">Number of Photocopies:</label>
+            <input type="number" id="copiesInput" placeholder="Enter quantity" value="" min="1">
+        </div>
+        
+        <button id="calculateButton">Calculate Invoice</button>
+        
+        <div class="results-area">
+            <p class="result-label">Total Bill (DH):</p>
+            <p id="totalBill" class="result-output">Click "Calculate Invoice"</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

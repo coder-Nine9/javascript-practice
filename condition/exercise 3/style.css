@@ -1,0 +1,84 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f8ff; /* Light, calming blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #0077b6; /* Deep blue title */
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+#copiesInput {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #a8dadc;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+#calculateButton {
+    width: 100%;
+    padding: 14px;
+    background-color: #457b9d; /* Muted blue */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    transition: background-color 0.3s;
+}
+
+#calculateButton:hover {
+    background-color: #1d3557;
+}
+
+.result-label {
+    margin: 15px 0 5px 0;
+    font-weight: 700;
+    color: #0077b6;
+    font-size: 1.1rem;
+}
+
+.result-output {
+    min-height: 30px;
+    padding: 15px;
+    background-color: #e0f2f1; /* Light teal background for result */
+    border-radius: 8px;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #1d3557; 
+    border: 1px solid #c2e0e0;
+}

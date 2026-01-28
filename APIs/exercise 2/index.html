@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game of Thrones Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>⚔️ Thrones Explorer</h1>
+        
+        <div class="selection-box">
+            <label for="charSelect">Choose a Character:</label>
+            <select id="charSelect">
+                <option value="">-- Select a Character --</option>
+            </select>
+        </div>
+
+        <div id="characterCard" class="card hidden">
+            <div class="image-container">
+                <img id="charImage" src="" alt="Character Portrait">
+            </div>
+            <div class="info-section">
+                <h2 id="fullName"></h2>
+                <p class="title" id="title"></p>
+                <hr>
+                <div class="detail">
+                    <span>House:</span>
+                    <strong id="family"></strong>
+                </div>
+            </div>
+        </div>
+
+        <div id="loading" class="spinner hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

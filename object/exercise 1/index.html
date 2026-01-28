@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Object Profile Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>👤 Profile Creator</h2>
+        <div class="form">
+            <input type="text" id="nameInp" placeholder="Full Name">
+            <input type="number" id="ageInp" placeholder="Age">
+            <input type="text" id="jobInp" placeholder="Profession">
+            <button id="createBtn">Create Profile Object</button>
+        </div>
+
+        <div id="profileCard" class="card hidden">
+            <div class="avatar"></div>
+            <h3 id="displayName"></h3>
+            <p id="displayAge"></p>
+            <p id="displayJob"></p>
+            <div class="json-preview">
+                <strong>Object Structure:</strong>
+                <pre id="objectOutput"></pre>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

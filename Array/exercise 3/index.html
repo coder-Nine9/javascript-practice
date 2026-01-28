@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scalar Product Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📐 Vector Dot Product</h2>
+        <p class="description">Calculate the scalar product of two 3-element vectors.</p>
+        
+        <div class="vector-input">
+            <h4>Vector U</h4>
+            <div class="inputs">
+                <input type="number" class="u-val" placeholder="u1">
+                <input type="number" class="u-val" placeholder="u2">
+                <input type="number" class="u-val" placeholder="u3">
+            </div>
+        </div>
+
+        <div class="vector-input">
+            <h4>Vector V</h4>
+            <div class="inputs">
+                <input type="number" class="v-val" placeholder="v1">
+                <input type="number" class="v-val" placeholder="v2">
+                <input type="number" class="v-val" placeholder="v3">
+            </div>
+        </div>
+
+        <button id="calcBtn">Calculate Product</button>
+
+        <div id="resultArea" class="result-box hidden">
+            <span class="formula">U · V = </span>
+            <span id="finalResult" class="final-val">0</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

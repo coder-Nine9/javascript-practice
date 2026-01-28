@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find the Minimum</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>📉 Minimum Finder</h2>
+        <p></p>
+        
+        <div class="input-group">
+            <input type="number" id="intInput" placeholder="Enter integer">
+            <button  id="addBtn">Add</button>
+        </div>
+
+        <div class="list-section">
+            <p id="countLabel"></p>
+            <div id="numberList" class="number-chips">
+                </div>
+        </div>
+
+        <div id="resultBox" class="result-area hidden">
+            <p>The minimum value is:</p>
+            <h1 id="minValue">?</h1>
+            <button id="resetBtn">Start Over</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
