@@ -1,0 +1,45 @@
+# 🕵️ Mystery Number Game
+
+A JavaScript guessing game where the player must find a **secret number between 1 and 30** within a limited number of attempts.
+
+## 🎮 Game Rules
+- A random number between **1 and 30** is generated
+- The player has **5 attempts**
+- After each guess, feedback is given:
+  - Too high
+  - Too low
+- The game ends when:
+  - The player finds the number (win)
+  - Attempts reach zero (game over)
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. A random number is generated using `Math.random()` :contentReference[oaicite:0]{index=0}
+2. User inputs a guess between 1 and 30
+3. Attempts decrease after each guess
+4. Feedback is displayed dynamically
+5. Player can restart the game without refreshing the page
+
+## ▶️ How to Play
+Open `index.html` in your browser.  
+Enter a number and click **Guess!**
+
+## 🎯 Learning Goals
+- Random number generation
+- Game logic and state management
+- Conditional statements
+- Input validation
+- DOM manipulation
+- Resetting application state
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
