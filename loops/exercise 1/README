@@ -1,0 +1,40 @@
+# 🔢 Next 10 Numbers Generator
+
+A JavaScript mini application that displays the **next 10 consecutive numbers** starting from a given number.
+
+## 📌 Description
+The user enters a starting number.  
+When clicking the button, the application generates and displays the **10 numbers that follow it**.
+
+Example:  
+Input → `5`  
+Output → `6 7 8 9 10 11 12 13 14 15`
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters a starting number :contentReference[oaicite:0]{index=0}
+2. JavaScript validates the input :contentReference[oaicite:1]{index=1}
+3. A loop generates the next 10 numbers
+4. Results are displayed dynamically in a list
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Loops (`for`)
+- Functions
+- Input validation
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
