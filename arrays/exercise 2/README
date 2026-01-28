@@ -1,0 +1,44 @@
+# 📊 Array Analytics Dashboard
+
+A JavaScript mini-app that collects user numbers into an array and calculates **sum, product, and average** once the required number of elements is reached.
+
+## 📌 Description
+The user first chooses how many numbers to enter.  
+As numbers are added:
+- A progress bar fills dynamically
+- A counter tracks entered values  
+When the array is complete, statistics are calculated and displayed.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. The user sets the number of elements via prompt :contentReference[oaicite:0]{index=0}
+2. Numbers are stored in an array
+3. Progress bar updates based on input count
+4. Once complete, the app calculates:
+   - Sum
+   - Product
+   - Average
+5. A reset button allows starting over
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation or server required.
+
+## 🎯 Learning Goals
+- Working with arrays
+- Functions and loops
+- Event handling
+- User input validation
+- Dynamic UI updates
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
