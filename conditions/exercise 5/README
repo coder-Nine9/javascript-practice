@@ -1,0 +1,42 @@
+# 🎓 Grade Calculator
+
+A JavaScript mini application that calculates the **average grade** of three scores and displays the corresponding **academic mention**.
+
+## 📌 Description
+The user enters three grades (from 0 to 20).  
+The application calculates the average and assigns a mention based on the result:
+
+- **Très bien** → ≥ 16  
+- **Bien** → ≥ 14  
+- **Assez bien** → ≥ 12  
+- **Passable** → ≥ 10  
+- **Insuffisant** → < 10  
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters three grades :contentReference[oaicite:0]{index=0}
+2. JavaScript calculates the average :contentReference[oaicite:1]{index=1}
+3. The mention is determined based on the average
+4. Results are displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Functions
+- Conditional statements
+- User input validation
+- Real-world grading logic
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
