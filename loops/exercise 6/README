@@ -1,0 +1,41 @@
+# 🎂 Amal's Savings Tracker
+
+A JavaScript mini application that calculates **Amal’s total savings** after a given number of birthdays.
+
+## 📌 Description
+Amal receives money every birthday:
+- A fixed amount of **500 dh**
+- Plus an extra amount that increases each year
+
+The user enters an age `n`, and the application calculates the **total savings** accumulated from birthday `1` to birthday `n`.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters the age `n` :contentReference[oaicite:0]{index=0}
+2. Input is validated to ensure a positive number :contentReference[oaicite:1]{index=1}
+3. A `for` loop calculates the total savings:
+   - `500 + (year × 3)` for each birthday
+4. The total balance is displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Loops (`for`)
+- Accumulative sums
+- Input validation
+- Real-life problem modeling
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
