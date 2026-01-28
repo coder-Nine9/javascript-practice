@@ -1,0 +1,44 @@
+# 🔢 Advanced Number Manipulation
+
+A JavaScript mini application that performs **conditional logic operations** on two numbers based on their signs.
+
+## 📌 Description
+The user enters two numbers **A** and **B**.  
+When clicking the button, the program checks their signs and applies one of two operations:
+
+- **If A and B have the same sign (or one is zero):**
+  - Their values are swapped
+- **If A and B have different signs:**
+  - A becomes the sum of A and B
+  - B becomes the product of the original values
+
+The new values are then displayed on the screen.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters values for A and B :contentReference[oaicite:0]{index=0}
+2. JavaScript checks the condition `A × B ≥ 0` :contentReference[oaicite:1]{index=1}
+3. Based on the result, values are swapped or recalculated
+4. Updated values are displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Conditional logic
+- Variable manipulation
+- Working with numbers
+- DOM updates
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
