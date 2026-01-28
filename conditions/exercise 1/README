@@ -1,0 +1,40 @@
+# ➕➖ Same Sign Checker
+
+A small JavaScript project that checks whether **two numbers have the same sign** (positive, negative, or zero).
+
+## 📌 Description
+The user enters two numbers (A and B).  
+When clicking the button, the application determines if:
+- Both numbers are positive
+- Both numbers are negative
+- Both numbers are zero  
+
+If one number is positive and the other negative, the result shows that they **do not** have the same sign.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. The user enters two numbers in input fields :contentReference[oaicite:0]{index=0}
+2. A button click triggers the comparison logic :contentReference[oaicite:1]{index=1}
+3. The result is displayed dynamically on the page
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Conditional statements
+- Handling user input
+- Basic logical operators
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
