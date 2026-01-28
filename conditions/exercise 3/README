@@ -1,0 +1,41 @@
+# 🧾 Photocopy Billing Calculator
+
+A JavaScript mini application that calculates the **total cost of photocopies** based on a tiered pricing system.
+
+## 📌 Description
+The user enters the number of photocopies.  
+The application calculates the invoice using the following pricing rules:
+
+- First 10 copies → **0.30 DH each**
+- Next 20 copies (11–30) → **0.25 DH each**
+- Copies above 30 → **0.20 DH each**
+
+The final bill is displayed instantly.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters the number of copies :contentReference[oaicite:0]{index=0}
+2. JavaScript applies tiered pricing logic :contentReference[oaicite:1]{index=1}
+3. The total invoice is calculated and displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Conditional statements
+- Functions
+- User input validation
+- Real-world pricing logic
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
