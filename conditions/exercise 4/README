@@ -1,0 +1,42 @@
+# 🧒 Child Category Finder
+
+A JavaScript mini application that determines a child’s **sports category** based on their age.
+
+## 📌 Description
+The user enters the child’s age, and the application assigns a category using predefined age ranges:
+
+- **Baby** → under 6 years  
+- **Poussin** → 6–7 years  
+- **Pupille** → 8–9 years  
+- **Minime** → 10–11 years  
+- **Cadet** → 12+ years  
+
+The result is displayed instantly.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters the child’s age :contentReference[oaicite:0]{index=0}
+2. JavaScript checks the age range :contentReference[oaicite:1]{index=1}
+3. The corresponding category is displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Conditional logic
+- Functions with return values
+- User input validation
+- Real-world categorization logic
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
