@@ -1,0 +1,42 @@
+# 🔁 Next 10 Numbers (while & do…while)
+
+A JavaScript mini project that displays the **next 10 numbers** after a given number using **two different loop structures**.
+
+## 📌 Description
+The user enters a starting number and can choose between:
+- Generating numbers using a **while loop**
+- Generating numbers using a **do…while loop**
+
+Both methods produce the same result, allowing comparison between loop behaviors.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters a starting number :contentReference[oaicite:0]{index=0}
+2. Input is validated before execution :contentReference[oaicite:1]{index=1}
+3. The app generates the next 10 numbers using:
+   - `while` loop
+   - `do...while` loop
+4. Results are displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Understanding `while` loops
+- Understanding `do...while` loops
+- Input validation
+- Function reuse
+- Comparing loop behaviors
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
