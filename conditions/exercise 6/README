@@ -1,0 +1,51 @@
+# 📐 Quadratic Equation Solver
+
+A JavaScript application that solves **quadratic equations** of the form:
+
+**ax² + bx + c = 0**
+
+The app calculates the discriminant and displays the appropriate solution(s).
+
+## 📌 Description
+The user enters the coefficients **a**, **b**, and **c**.  
+Based on their values, the program determines:
+
+- Two real solutions (Δ > 0)
+- One real solution (Δ = 0)
+- Two complex solutions (Δ < 0)
+- Linear equation cases (a = 0)
+- No solution or infinite solutions when applicable
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters coefficients a, b, and c :contentReference[oaicite:0]{index=0}
+2. JavaScript calculates the discriminant Δ = b² − 4ac :contentReference[oaicite:1]{index=1}
+3. The program determines the type of solution:
+   - Two real
+   - One real
+   - Complex
+   - Linear or special cases
+4. Solutions are displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Mathematical problem solving
+- Conditional logic
+- Functions
+- Handling multiple edge cases
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
