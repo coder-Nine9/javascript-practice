@@ -1,0 +1,36 @@
+# 📉 Minimum Finder
+
+A JavaScript mini project that finds the **smallest value** from a set of user-entered integers.
+
+## 📌 Description
+The user first chooses how many numbers to enter.  
+After all values are added, the application calculates and displays the **minimum number** in the array.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. The user sets the number of elements via a prompt :contentReference[oaicite:0]{index=0}
+2. Numbers are stored in an array
+3. A loop compares values to find the minimum
+4. The result is displayed dynamically on the page
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Arrays and loops
+- Input validation
+- Conditional logic
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
