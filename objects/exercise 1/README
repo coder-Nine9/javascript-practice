@@ -1,0 +1,45 @@
+# 👤 Profile Creator (JavaScript Object)
+
+A JavaScript mini application that creates a **user profile object** from form inputs and displays both the data and its object structure.
+
+## 📌 Description
+The user enters:
+- Full name
+- Age
+- Profession
+
+After clicking the button, the application:
+- Creates a JavaScript object
+- Displays the profile information
+- Shows the object structure in JSON format
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User fills all input fields :contentReference[oaicite:0]{index=0}
+2. Inputs are validated to prevent empty values :contentReference[oaicite:1]{index=1}
+3. A JavaScript object is created with the user data
+4. Profile information is displayed on the page
+5. The object is printed using `JSON.stringify()`
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Creating and using JavaScript objects
+- Form validation
+- DOM manipulation
+- Displaying JSON data
+- Structuring data in JavaScript
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
