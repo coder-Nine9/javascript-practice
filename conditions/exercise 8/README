@@ -1,0 +1,45 @@
+# 💰 VAT (TVA) Calculator
+
+A JavaScript mini application that calculates the **VAT amount (TVA)** and the **total price (TTC)** based on a selected tax category.
+
+## 📌 Description
+The user enters a **price excluding tax (HT)** and selects a **VAT category**.  
+The application calculates:
+
+- The VAT amount
+- The final price including tax (TTC)
+
+### VAT Categories
+- **Category A** → 7%
+- **Category B** → 20%
+- **Category C** → 25%
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters the price HT :contentReference[oaicite:0]{index=0}
+2. User selects a VAT category
+3. JavaScript applies the correct VAT rate using a `switch` statement :contentReference[oaicite:1]{index=1}
+4. VAT amount and total TTC are displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Switch statements
+- Functions
+- Input validation
+- Real-world tax calculation
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
