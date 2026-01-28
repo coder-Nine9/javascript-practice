@@ -1,0 +1,40 @@
+# ➗ Harmonic Series Calculator
+
+A JavaScript mini application that calculates the **sum of the harmonic series** up to a given number `n`.
+
+## 📌 Description
+The harmonic series is defined as:
+
+S = 1/1 + 1/2 + 1/3 + ... + 1/n
+
+The user enters a positive integer `n`, and the application calculates the sum using a loop and displays the result.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters a positive integer `n` :contentReference[oaicite:0]{index=0}
+2. Input is validated to prevent invalid values :contentReference[oaicite:1]{index=1}
+3. A `for` loop calculates the harmonic sum
+4. The result is displayed with two decimal places
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- `for` loops
+- Mathematical calculations
+- Input validation
+- Floating-point numbers
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
