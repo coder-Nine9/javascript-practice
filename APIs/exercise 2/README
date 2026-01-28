@@ -1,0 +1,36 @@
+# ⚔️ Thrones Explorer
+
+A simple web app that lets users explore **Game of Thrones characters** using a public API.
+
+## 🔹 Description
+Select a character from the dropdown to instantly view:
+- Character image  
+- Full name  
+- Title  
+- House / Family  
+
+Data is fetched dynamically from an external API using JavaScript.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla)
+- Public API (thronesapi.com)
+
+## 📂 Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ▶️ How to Run
+Just open `index.html` in your browser.  
+No installation or server required.
+
+## 🎯 What I Learned
+- Fetching data from APIs
+- Async / Await
+- DOM manipulation
+- Handling user events
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
