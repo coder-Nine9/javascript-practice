@@ -1,0 +1,40 @@
+# 🔟 Power of 10 Series Calculator
+
+A JavaScript mini application that calculates the **sum of powers of 10** from `10⁰` up to `10ⁿ`.
+
+## 📌 Description
+The series is defined as:
+
+S = 1 + 10 + 100 + ... + 10ⁿ
+
+The user enters a non-negative integer `n`, and the application calculates the sum using a loop.
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User enters the exponent `n` :contentReference[oaicite:0]{index=0}
+2. Input is validated to ensure a non-negative value :contentReference[oaicite:1]{index=1}
+3. A `for` loop calculates the sum of `10⁰` to `10ⁿ`
+4. The result is displayed dynamically
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- `for` loops
+- Exponentiation (`**`)
+- Input validation
+- Mathematical series
+- DOM manipulation
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
