@@ -1,0 +1,37 @@
+# ✖️ Multiplication Table (1–10)
+
+A JavaScript mini application that generates a **10×10 multiplication table** dynamically using nested loops.
+
+## 📌 Description
+When the user clicks the **Generate Table** button, the application creates a grid showing all multiplication results from **1 × 1** up to **10 × 10**.
+
+Each cell displays the operation in the format: i × j = result
+
+## 🛠️ Technologies Used
+- HTML
+- CSS
+- JavaScript (Vanilla JS)
+
+## 📂 Project Files
+- `index.html`
+- `style.css`
+- `script.js`
+
+## ⚙️ How It Works
+1. User clicks the generate button :contentReference[oaicite:0]{index=0}
+2. JavaScript uses **nested `for` loops** to iterate from 1 to 10 :contentReference[oaicite:1]{index=1}
+3. Each multiplication result is created as a DOM element
+4. The table is displayed as a responsive grid
+
+## ▶️ How to Run
+Open `index.html` in your browser.  
+No installation required.
+
+## 🎯 Learning Goals
+- Nested loops
+- Dynamic DOM creation
+- Using `DocumentFragment` for performance
+- Grid layouts with CSS
+
+## 👤 Author
+**Abdelaziz El Khanoussi**
